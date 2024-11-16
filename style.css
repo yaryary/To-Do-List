@@ -1,15 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fff48f, #55b556);
-    padding: 10px;
+    background: url('images/background.png') no-repeat center center/cover;
+    padding-top: 100px;
 }
 
 .todo-app{
@@ -22,7 +22,7 @@
 }
 
 .todo-app h2{
-    color: #002765;
+    color:  #604343;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -62,8 +62,8 @@ button {
     margin-left: 10px;
     border: none;
     padding: 16px 30px;
-    background: #4aa247;
-    color: #fff;
+    background: #ebd4d4;
+    color: #604343;
     font-size: 16px;
     cursor: pointer; 
     border-radius: 40px;
@@ -83,7 +83,7 @@ ul li::before {
     position: absolute;
     height: 28px;
     width: 28px;
-    background: url('images/crop.png');
+    background: url('images/sqaure.png');
     background-size: cover;
     left: 8px;
     top: 12px;
